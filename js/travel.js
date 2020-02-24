@@ -49,3 +49,12 @@ for (var i = 0; i < numItems; i++) {
      xx= 1;
  }
 
+
+function hideElementByClass(class_name){
+    $('.'+class_name).hide();
+}
+
+function showElementByClass(class_name){
+    $('.'+class_name).show();
+}
+

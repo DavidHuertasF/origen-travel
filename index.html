@@ -26,6 +26,7 @@
         <!-- Extra plugin css -->
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+        <link href="css/travel.css" rel="stylesheet">
 
         
     </head>
@@ -367,9 +368,9 @@
                     <div class="project_item">
                         <img src="img/Galería/sugamuxi/1.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner" style="cursor:pointer" onclick="showElementByClass('zoom_gallery_a')">
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ............................................................................................................................... </p>
                                     
                                 </div>
@@ -381,9 +382,9 @@
                     <div class="project_item">
                         <img src="img/Galería/sugamuxi/2.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner" style="cursor:pointer" onclick="showElementByClass('zoom_gallery_b')">
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ............................................................................................................................... </p>
                                     
                                 </div>
@@ -395,9 +396,9 @@
                     <div class="project_item">
                         <img src="img/Galería/valle/2.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner style="cursor:pointer" onclick="showElementByClass('zoom_gallery_c')"">
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ...............................................................................................................................</p>
                                     
                                 </div>
@@ -409,9 +410,9 @@
                     <div class="project_item">
                         <img src="img/Galería/valle/1.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner style="cursor:pointer" onclick="showElementByClass('zoom_gallery_d')"">
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ...............................................................................................................................</p>
                                     
                                 </div>
@@ -423,9 +424,9 @@
                     <div class="project_item">
                         <img src="img/Galería/norte/1.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner style="cursor:pointer" onclick="showElementByClass('zoom_gallery_e')"" >
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ...............................................................................................................................</p>
                                     
                                 </div>
@@ -437,9 +438,9 @@
                     <div class="project_item">
                         <img src="img/Galería/norte/2.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner style="cursor:pointer" onclick="showElementByClass('zoom_gallery_f')"">
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ...............................................................................................................................</p>
                                     
                                 </div>
@@ -451,9 +452,9 @@
                     <div class="project_item">
                         <img src="img/Galería/ricaurte/1.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner style="cursor:pointer" onclick="showElementByClass('zoom_gallery_g')"">
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ...............................................................................................................................</p>
                                     
                                 </div>
@@ -465,9 +466,9 @@
                     <div class="project_item">
                         <img src="img/Galería/ricaurte/2.jpg" alt="">
                         <div class="project_hover">
-                            <div class="project_hover_inner">
+                            <div class="project_hover_inner style="cursor:pointer" onclick="showElementByClass('zoom_gallery_h')"">
                                 <div class="project_hover_content">
-                                    <a href="#"><h4>Nombre lugar</h4></a>
+                                    <a><h4>Nombre lugar</h4></a>
                                     <p>Descripcion ...............................................................................................................................</p>
                                     
                                 </div>
@@ -482,8 +483,50 @@
      
         
        
+        <div onclick="hideElementByClass('zoom_gallery_a')" class="zoom_gallery_a zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/sugamuxi/1.jpg" alt="">
+        </div>
+
+        <div onclick="hideElementByClass('zoom_gallery_b')" class="zoom_gallery_b zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/sugamuxi/2.jpg" alt="">
+        </div>
+
+        <div onclick="hideElementByClass('zoom_gallery_c')" class="zoom_gallery_c zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/valle/2.jpg" alt="">
+        </div>
+
+        <div onclick="hideElementByClass('zoom_gallery_d')" class="zoom_gallery_d zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/valle/1.jpg" alt="">
+        </div>
+
+        <div onclick="hideElementByClass('zoom_gallery_e')" class="zoom_gallery_e zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/norte/1.jpg" alt="">
+        </div>
+
+        <div onclick="hideElementByClass('zoom_gallery_f')" class="zoom_gallery_f zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/norte/2.jpg" alt="">
+        </div>
+
+        <div onclick="hideElementByClass('zoom_gallery_g')" class="zoom_gallery_g zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/ricaurte/1.jpg" alt="">
+        </div>
+
+        <div onclick="hideElementByClass('zoom_gallery_h')" class="zoom_gallery_h zoom_gallery" >
+            <img class="zoom_gallery__img" src="img/Galería/ricaurte/2.jpg" alt="">
+        </div>
+
+
+
+
         
-      
+
+        <!-- <img src="img/Galería/norte/2.jpg" alt="">
+        <img src="img/Galería/ricaurte/1.jpg" alt="">
+        <img src="img/Galería/ricaurte/2.jpg" alt="">
+        <img src="img/Galería/sugamuxi/1.jpg" alt="">
+        <img src="img/Galería/sugamuxi/2.jpg" alt="">
+        <img src="img/Galería/valle/1.jpg" alt="">
+        <img src="img/Galería/valle/2.jpg" alt=""> -->
         
           
        
@@ -561,13 +604,6 @@
         <!--================End Footer Area =================-->
         
         
-        
-        
-        
-        
-        
-        
-        
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery-2.2.4.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -591,9 +627,7 @@
         <!--gmaps Js-->
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
         <script src="js/gmaps.min.js"></script>
-        
         <script src="js/theme.js"></script>
-
         <script src="js/travel.js"></script>
     </body>
 </html>
