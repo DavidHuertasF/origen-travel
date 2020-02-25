@@ -840,11 +840,12 @@ iframe {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  color: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   position: relative;
-  z-index: 2;
   overflow: hidden;
+  background: #f31318;
+  border-radius: 12px;
   -webkit-transition: color .5s;
   -o-transition: color .5s;
   transition: color .5s;
