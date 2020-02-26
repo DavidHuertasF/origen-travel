@@ -242,6 +242,10 @@
 	}
 }
 @media(max-width: 767px){
+
+	.project_item{
+		margin-left: 50px;
+	}
 	.recent_w_inner .media .media-body{
 		vertical-align: middle;
 	}
@@ -302,6 +306,10 @@
 	}
 }
 @media(max-width: 575px){
+
+	.project_item{
+		margin-left: 0px;
+	}
 	.our_project_details .project_item {
 		width: calc(100% / 1);
 		float: none;
